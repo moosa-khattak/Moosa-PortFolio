@@ -1,16 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./components/essential/navbar";
 import Footer from "./components/essential/footer";
 import About from "./components/About/About";
 import Contact from "./components/Contact Us/contact";
 import Home from "./components/Home/pages";
 import NotFound from "./components/Not found/Notfound";
+import Loader from "./components/Loader/Loader";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { GrTechnology } from "react-icons/gr";
-import Technologies from "./components/Home/tools";
+
+
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate load time (replace with actual fetch if needed)
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000); // you can change this to match actual loading time
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <div>
       
@@ -30,7 +46,7 @@ function App() {
           window.location.pathname === "/Contact") && <Footer />}
       </BrowserRouter>
 
-      {/* <Technologies /> */}
+      
     </div>
   );
 }

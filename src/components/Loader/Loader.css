@@ -1,0 +1,27 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f172a; /* Dark navy background */
+  color: white;
+}
+
+.loader-text {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: serif;
+  animation: fadeInOut 1.8s ease-in-out infinite;
+  letter-spacing: 2px;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
