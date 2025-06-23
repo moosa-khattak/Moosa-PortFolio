@@ -73,6 +73,16 @@ function Technologies() {
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
             bg: "bg-white",
           },
+          {
+            name: "Git",
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+            bg: "bg-white",
+          },
+          {
+            name: "Vercel",
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+            bg: "bg-white",
+          },
         ].map((tech, index) => (
           <div
             key={index}
