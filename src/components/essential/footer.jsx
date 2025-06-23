@@ -11,8 +11,8 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-gray-950 text-gray-400 py-6 select-text">
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+    <footer className="bg-gray-950 text-gray-400 py-6 select-text ">
+      <div className="max-w-7xl mx-auto px-6 flex items-center flex-col sm:flex sm:items-center sm:justify-between ">
         {/* Left: Portfolio Link */}
         <Link
           to="/"
