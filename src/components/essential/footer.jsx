@@ -19,7 +19,7 @@ function Footer() {
           rel="noopener noreferrer"
           className="text-lg  hover:text-white font-serif  transition-colors"
         >
-          Portfolio
+         Moosa-Portfolio
         </Link>
 
         {/* Center: Copyright */}
