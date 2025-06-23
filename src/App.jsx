@@ -18,7 +18,7 @@ function App() {
     // Simulate load time (replace with actual fetch if needed)
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // you can change this to match actual loading time
+    }, 4000); // you can change this to match actual loading time
 
     return () => clearTimeout(timer);
   }, []);
