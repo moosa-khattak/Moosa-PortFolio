@@ -52,7 +52,7 @@ function Contact() {
           };
       }
 
-      console.log(contactForm);
+      // console.log(contactForm);
     } catch (error) {
       console.log(error.message);
     }
