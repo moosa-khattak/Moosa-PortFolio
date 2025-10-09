@@ -5,9 +5,9 @@ function About() {
     <main>
       <div className="bg-[#090b0d] min-h-screen flex flex-col items-center text-center px-4 py-20">
         {/* Heading */}
-        <h1 className="text-3xl sm:text-5xl font-serif font-extrabold text-blue-600 mb-3">
+        <div className="text-3xl sm:text-5xl font-serif font-extrabold text-blue-600 mb-3">
           About Me
-        </h1>
+        </div>
 
         {/* Content Grid */}
         <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
