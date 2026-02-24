@@ -51,6 +51,13 @@ function Projects() {
             techStack: ["React", "Tailwind CSS"],
             link: "#",
             github: "#"
+        },
+        {
+            title: "Dashboard Design",
+            description: "A clean, responsive dashboard UI demonstrating data visualization layouts and modern admin panel design.",
+            techStack: ["React", "Tailwind", "Netlify"],
+            link: "https://meek-quokka-d8d4c4.netlify.app/",
+            github: "#"
         }
     ];
 

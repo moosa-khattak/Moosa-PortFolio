@@ -190,7 +190,7 @@ function Contact() {
                     >
                       <FontAwesomeIcon icon={faFacebook} />
                     </a>
-                    <a
+                    {/* <a
                       href="https://www.instagram.com/muhammadmoosa278?igsh=N3U0d2N0b3NqbWhk"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -198,8 +198,8 @@ function Contact() {
                       className="hover:text-pink-600 transition-colors"
                     >
                       <FontAwesomeIcon icon={faInstagram} />
-                    </a>
-                    <a
+                    </a> */}
+                    {/* <a
                       href="https://twitter.com/your-twitter"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -207,7 +207,7 @@ function Contact() {
                       className="hover:text-sky-400 transition-colors"
                     >
                       <FontAwesomeIcon icon={faTwitter} />
-                    </a>
+                    </a> */}
                     <a
                       href="https://www.linkedin.com/in/muhammad-moosa-06a310293/"
                       target="_blank"

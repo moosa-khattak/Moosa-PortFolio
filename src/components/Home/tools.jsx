@@ -84,6 +84,11 @@ function Technologies() {
             bg: "bg-white",
           },
           {
+            name: "Netlify",
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg",
+            bg: "bg-white",
+          },
+          {
             name: "Laravel",
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
             bg: "bg-white",
