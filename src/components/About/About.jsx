@@ -23,15 +23,7 @@ function About() {
           {/* Text and Skills */}
           <div className="flex flex-col justify-center gap-8">
             <p className="text-gray-300 text-lg sm:text-xl text-justify bg-gray-900 p-6 rounded-2xl shadow-inner">
-              I am a MERN stack developer skilled in MongoDB, Express.js,
-              React.js, and Node.js. I have experience building full-stack web
-              applications with clean and efficient code. I enjoy designing
-              user-friendly interfaces and developing strong backend systems. My
-              projects include dynamic websites, RESTful APIs, and
-              database-driven platforms. I am comfortable working in both team
-              environments and on individual tasks. I am always looking to learn
-              new technologies and improve my coding skills. My goal is to build
-              useful and responsive web applications that solve real problems.
+             I am a Full Stack Developer skilled in both MERN Stack (MongoDB, Express.js, React.js, Node.js) and Laravel. I have experience building scalable and efficient web applications using modern frontend and backend technologies. I enjoy designing user-friendly interfaces and developing secure, high-performance backend systems. My projects include dynamic websites, RESTful APIs, and database-driven platforms built with MERN and Laravel. I am comfortable working in both team environments and independently. I am always eager to learn new technologies and continuously improve my development skills. My goal is to build powerful, responsive, and real-world problem-solving web applications
             </p>
 
             {/* Skills */}

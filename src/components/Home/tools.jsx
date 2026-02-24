@@ -83,6 +83,26 @@ function Technologies() {
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
             bg: "bg-white",
           },
+          {
+            name: "Laravel",
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
+            bg: "bg-white",
+          },
+          {
+            name: "MySQL",
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+            bg: "bg-white",
+          },
+          {
+            name: "Prisma",
+            src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg",
+            bg: "bg-white",
+          },
+          {
+            name: "TanStack",
+            src: "https://raw.githubusercontent.com/TanStack/query/main/media/repo-header.png",
+            bg: "bg-white",
+          },
         ].map((tech, index) => (
           <div
             key={index}

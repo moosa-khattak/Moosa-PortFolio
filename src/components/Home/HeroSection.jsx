@@ -31,7 +31,7 @@ function HeroSection() {
             1000,
             "BackEnd Developer",
             1000,
-            "MERN Stack Developer",
+            "Full Stack Developer",
             1000,
           ]}
           wrapper="span"
@@ -42,7 +42,7 @@ function HeroSection() {
 
         <div className="text-lg sm:text-xl space-y-2">
           <p>I am a FrontEnd || BackEnd || FullStack Developer</p>
-          <p>Currently working as a MERN Stack Developer</p>
+          <p>Currently working as a Full Stack Development</p>
         </div>
 
         {/* Social Icons */}
@@ -63,14 +63,14 @@ function HeroSection() {
           >
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/muhammadmoosa278?igsh=N3U0d2N0b3NqbWhk"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500 transition"
           >
             <FontAwesomeIcon icon={faInstagram} />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/muhammad-moosa-06a310293/"
             target="_blank"
@@ -79,14 +79,14 @@ function HeroSection() {
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/your-twitter"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-sky-400 transition"
           >
             <FontAwesomeIcon icon={faTwitter} />
-          </a>
+          </a> */}
         </div>
 
         {/* Contact Button */}

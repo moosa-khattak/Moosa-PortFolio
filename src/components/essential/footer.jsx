@@ -49,7 +49,7 @@ function Footer() {
           >
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/muhammadmoosa278?igsh=N3U0d2N0b3NqbWhk"
             target="_blank"
             rel="noopener noreferrer"
@@ -57,8 +57,8 @@ function Footer() {
             aria-label="Instagram"
           >
             <FontAwesomeIcon icon={faInstagram} />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://twitter.com/your-twitter"
             target="_blank"
             rel="noopener noreferrer"
@@ -66,7 +66,7 @@ function Footer() {
             aria-label="Twitter"
           >
             <FontAwesomeIcon icon={faTwitter} />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/muhammad-moosa-06a310293/"
             target="_blank"
