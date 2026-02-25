@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faWhatsapp,
   faFacebook,
-  faInstagram,
-  faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
@@ -19,7 +17,7 @@ function Footer() {
           rel="noopener noreferrer"
           className="text-lg  hover:text-white font-serif  transition-colors"
         >
-         Moosa-Portfolio
+          Moosa-Portfolio
         </Link>
 
         {/* Center: Copyright */}

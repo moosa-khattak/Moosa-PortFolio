@@ -6,8 +6,6 @@ import axios from "axios";
 import {
   faWhatsapp,
   faFacebook,
-  faInstagram,
-  faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
@@ -44,12 +42,12 @@ function Contact() {
         e.target.reset();
       } else {
         toast.error("SomeThing Went Wrong"),
-          {
-            autoClose: 2000,
-            position: "top-center",
-            hideProgressBar: true,
-            theme: "dark",
-          };
+        {
+          autoClose: 2000,
+          position: "top-center",
+          hideProgressBar: true,
+          theme: "dark",
+        };
       }
 
       // console.log(contactForm);
