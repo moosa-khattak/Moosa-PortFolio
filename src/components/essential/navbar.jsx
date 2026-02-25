@@ -27,7 +27,7 @@ function Navbar() {
           />
 
           <span className="text-2xl font-serif font-extrabold text-blue-600">
-            PortFolio
+           Moosa-PortFolio
           </span>
         </Link>
 
